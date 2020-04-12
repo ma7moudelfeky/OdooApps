@@ -1,0 +1,30 @@
+# pylint: disable=missing-docstring,manifest-required-author
+{
+    'name': 'JCB Leave Limit',
+    'summary': 'JCB Leave Limit',
+    'author': 'Mahmoud Elfeky , AJIG CAIRO',
+    'website': 'i.jcbvip.com',
+    'version': '12.0.1.0.0',
+    'category': 'Humman Resources',
+    'license': 'AGPL-3',
+    'sequence': 1,
+    'depends': [
+        'base',
+        'document',
+        'hr',
+        'hr_holidays',
+    ],
+    'data': [
+        # 'security/ir.model.access.csv',
+        # 'report/',
+        # 'wizard/',
+        'views/leave_type_view.xml',
+        # 'views/hr_leave_view.xml',
+        # 'views/menu_view.xml',
+        # 'data/salry_rule.xml',
+    ],
+    'demo': [],
+    'installable': True,
+    'application': True,
+    'auto_install': False,
+}
